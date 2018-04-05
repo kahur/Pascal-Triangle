@@ -1,0 +1,13 @@
+{
+  "name": "test/triangle",
+  "type": "project",
+  "description": "triangle",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
