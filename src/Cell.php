@@ -3,7 +3,7 @@
 
 class Cell
 {
-    public function get($rowNum, $cellNum, $previousNum = 1)
+    public function get($update = 'update', $rowNum, $cellNum, $previousNum = 1)
     {
         if ($cellNum === 0) {
             return 1;
